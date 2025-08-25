@@ -1,0 +1,22 @@
+# Ignorar logs e arquivos temporários gerais
+*.log
+*.jou
+webtalk*.tcl
+webtalk*.xml
+
+# Ignorar TUDO que o Vivado gera ao rodar o script Tcl.
+*.xpr
+*.srcs/
+*.sim/
+*.runs/
+*.cache/
+*.ip_user_files/
+*.hw/
+*.gen/
+*.xpr.pb
+*.launch/
+*_reports/
+*.backup.zip
+
+# Ignorar arquivos de IDEs
+.vscode/
